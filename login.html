@@ -1,0 +1,79 @@
+<!-- login.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CertifyHub</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="login.css" rel="stylesheet">
+
+	<script>
+		function validate() {
+			var Email = document.myForm.Email.value;
+			var password = document.myForm.password.value;
+	  
+		
+			if( document.myForm.Email.value == "" ) {
+			alert( "Please provide your Email!" );
+			document.myForm.Email.focus() ;
+			return false;
+			 }
+			if( document.myForm.password.value == "" ) {
+			alert( "Please provide your password!" );
+			document.myForm.password.focus() ;
+			return false;
+			}
+			
+			return (true);
+		}
+	
+	</script>
+
+    
+</head>
+
+<body>	
+	<nav>
+  		<ul class="pagination justify-content-end">
+    			<li class="page-item active" aria-current="page"><a class="page-link" href="login.html">Log in</a></li>
+    			<li class="page-item"><a class="page-link" href="signup.html">Sign up</a></li>
+  		</ul>
+	</nav>
+
+	<center><h1>Log in</h1></center>
+	<br><br>
+
+	<div style="width:50%; float:left; padding-left: 10%;">
+		<img src="logo 1.jpeg" alt="" height=440px width=550px>
+	</div>
+
+
+	<div style="width: 50%; float:right; padding-right: 10%;">
+		<form name = myForm action = "mainpage.html" onsubmit = "return validate()" method = "post">
+			<div class="container my-container mt-0">
+				
+				<div class="mb-3">
+					<label class="form-label"><b>Email Address</b></label>
+					<input type="email" class="form-control my-input" name = "Email" placeholder="example@gmail.com" >
+				</div>
+				
+				<div class="mb-3">	
+					<label class="form-label"><b>Password</b></label>
+					<input type="password" class="form-control my-input" name = "password" placeholder="Enter password" >
+				</div>
+		
+				<div class="my-pass justify-content-end">
+					<a href="forgot password.html">Forgot password ?</a>
+				</div>
+		
+				<br>
+				<ul class="pagination justify-content-start"></ul>
+				 <button type="submit" class="btn btn-primary btn-lg">Log in</button>
+				
+			</form>
+	</div>
+
+
+
+</body>
+</html>

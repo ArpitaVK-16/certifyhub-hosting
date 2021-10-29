@@ -1,0 +1,10 @@
+*{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.mytable{
+    font-size: large;
+    border-width: 20%;
+    text-align: center;    
+}

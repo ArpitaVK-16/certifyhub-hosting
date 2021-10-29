@@ -1,0 +1,9 @@
+*{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.mytable{
+    font-size: large;
+    border-width: 20%;
+}

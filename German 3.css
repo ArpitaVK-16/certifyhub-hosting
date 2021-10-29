@@ -1,0 +1,20 @@
+*{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.mytable{
+    font-size: large;
+    border-width: 20%;
+}
+.table-primary{    
+    border-width: 10px;
+}
+.table-success{
+    border-width: 10px;
+}
+.table-warning{
+    border-width: 10px;
+}
+.table-info{
+    border-width: 10px;
+}

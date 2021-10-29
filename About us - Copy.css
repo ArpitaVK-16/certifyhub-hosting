@@ -1,0 +1,9 @@
+.container{
+    width: 60%;   
+    
+    border-style:2px solid;
+    border-width: 2em;
+    border-color: crimson;
+    
+    border-radius: 20px;
+}

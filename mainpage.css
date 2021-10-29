@@ -1,0 +1,67 @@
+.banner{
+	height:600px;
+	/* background-image:url(https://th.bing.com/th/id/OIP.efyrGe_K9tr2JF0m53rMlQHaDQ?pid=ImgDet&rs=1); */
+	background-size:cover;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+}
+
+
+
+.banner_content{
+	/* height:400px; */
+	width: 400px;
+	background-color:rgba(255,255,255,0.7);
+	display:flex;
+	font-size:20px;
+}
+
+
+.banner_title{
+	font-size:53px;
+}
+
+
+.padd{
+	padding:35px;
+}
+
+
+.paragraph{
+	text-align: justify;
+	padding-left: 10px;
+}
+
+
+.row{
+    display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.container-fluid{
+	padding:50px;
+}
+
+
+.card-title{
+	color:crimson;
+}
+
+
+
+.my-features-card{
+	border-radius: 20px;
+	font-size: 20px;
+	min-height: 370px;
+	background-color: #9904ff33;
+}
+
+.card-img-top{
+	height:300px;
+	padding:5%;
+}
